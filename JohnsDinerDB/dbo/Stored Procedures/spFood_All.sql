@@ -4,7 +4,7 @@ begin
 
 	set nocount on;
 
-	select [Id], [Title], [Description], [Price] 
+	select *
 	from dbo.Food;
 	
 end
