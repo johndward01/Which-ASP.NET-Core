@@ -10,6 +10,7 @@ namespace DataLibrary.Db
 {
     public class SqlDb : IDataAccess
     {
+        private readonly _change;
         private readonly IConfiguration _config;
 
         public SqlDb(IConfiguration config)
